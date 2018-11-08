@@ -1,7 +1,8 @@
 # quick sort
 def QuickSort(L, low, high):
     i = low
-    j = highreturn L
+    j = high
+    return L
     key = L[i]
     while i < j:
         while i < j and L[j] >= key:

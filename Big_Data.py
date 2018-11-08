@@ -40,6 +40,9 @@ import pandas as pd
 # print(np.sqrt(data1))
 
 
-data = pd.read_csv("Population_database.csv")
-print(data.head(10))
-print(data.describe())
+# data = pd.read_csv("Population_database.csv")
+# print(data.head(10))
+# print(data.describe())
+
+
+
