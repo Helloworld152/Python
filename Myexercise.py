@@ -77,9 +77,7 @@ def swap(lyst, i, j):
     lyst[i] = lyst[j]
     lyst[j] = temp
 
-"""
-选择排序：时间复杂度：O(n^2)
-"""
+"""选择排序：时间复杂度：O(n^2)"""
 def selectionSort(lyst):
     i = 0
     while i < len(lyst) - 1:
@@ -94,9 +92,7 @@ def selectionSort(lyst):
         i += 1
 
 
-"""
-冒泡排序 时间复杂度：
-"""
+"""冒泡排序 时间复杂度："""
 def bubbleSort(lyst):
     n = len(lyst)
     while n > 1:
@@ -107,9 +103,7 @@ def bubbleSort(lyst):
             i += 1
         n -= 1
 
-"""
-插入排序 时间复杂度：O(n^2)
-"""
+"""插入排序 时间复杂度：O(n^2)"""
 def insertSort(lyst):
     i = 1
     while i < len(lyst):
@@ -128,10 +122,13 @@ def insertSort(lyst):
         # print()
         i += 1
 
-"""
-快速排序 时间复杂度：O(nlogn)
-"""
+"""快速排序 时间复杂度：O(nlogn)"""
 def quickSort(lyst):
 
 insertSort(list)
 print(list)
+"""约瑟夫环问题"""
+def JosephRing(num, space):
+    lyst = range(1, num + 1)
+    for i in range(num):
+        lyst[i] = i % space
