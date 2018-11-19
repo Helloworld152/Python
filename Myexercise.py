@@ -124,7 +124,7 @@ def insertSort(lyst):
 
 """快速排序 时间复杂度：O(nlogn)"""
 def quickSort(lyst):
-
+    pass
 insertSort(list)
 print(list)
 """约瑟夫环问题"""
