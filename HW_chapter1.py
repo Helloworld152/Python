@@ -14,10 +14,14 @@
 # 4
 import functools
 
+
 def gottfried_leibniz(n):
-    pai = functools.reduce(lambda x, y:x + (-1)**(y + 1)/(2*y - 1), range(1, n+1))
+    pai = functools.reduce(lambda x, y: x + (-1) ** (y + 1) / (2 * y - 1), range(1, n + 1))
     print(4 * pai)
+
+
 gottfried_leibniz(10000)
+
 
 # 3
 def marble(height, num):
@@ -25,4 +29,6 @@ def marble(height, num):
     sum = functools.reduce(lambda x, y: x + 2 * y, List)
     sum -= List[num - 1]
     print(sum)
+
+
 marble(10, 3)
