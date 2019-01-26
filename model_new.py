@@ -74,3 +74,5 @@ class Model:
         min_row = 0
 
         for matrix in matriceList:
+            for row in matrix:
+                for
