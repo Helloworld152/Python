@@ -66,5 +66,11 @@ class Model:
     # 第i步选择医疗包
     def chooseBag(self, i):
 
+        matriceList = []
+        for j in range(0, 3):
+            matriceList.append(self.createMatrice(i, j))
 
+        min_column = 0
+        min_row = 0
 
+        for matrix in matriceList:
